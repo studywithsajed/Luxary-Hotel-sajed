@@ -1,0 +1,152 @@
+@media only screen and (min-width: 992px) and (max-width:1170px) {
+  .container {
+    width: 970px;
+  }
+
+  .header-info,
+  .header-social {
+    width: 485px;
+  }
+
+  .nav-links {
+    width: 770px;
+  }
+
+  .nav-links li {
+    margin-left: 30px;
+  }
+
+  .section-title h4 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .about-img {
+    width: 440px;
+  }
+
+  .about-content {
+    width: 530px;
+  }
+
+  .single-counter {
+    width: 242px;
+  }
+
+  .single-service {
+    width: 232px;
+  }
+
+  .single-room {
+    width: 308px;
+  }
+
+  .single-hotel {
+    width: 227px;
+  }
+
+  .single-testimonial {
+    width: 460px;
+    margin-inline-end: 25px;
+  }
+
+  .contact-content {
+    width: 400px;
+  }
+
+  .contact-form {
+    width: 555px;
+  }
+
+  .single-footer {
+    width: 227px;
+  }
+
+  .copyright-content,
+  .copyright-policy {
+    width: 485px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+  .container {
+    width: 750px;
+  }
+
+  .header-info,
+  .header-social {
+    width: 375px;
+  }
+
+  .logo {
+    width: 140px;
+  }
+
+  .nav-links {
+    width: 610px;
+  }
+
+  .nav-links li {
+    margin-left: 10px;
+  }
+
+  .section-title h4 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .about-img {
+    width: 355px;
+  }
+
+  .about-img img,
+  .about-content p {
+    padding: 0;
+  }
+
+  .about-content {
+    width: 395px;
+  }
+
+  .section-title h4 {
+    font-size: 60px;
+    line-height: 72px;
+    max-width: 400px;
+  }
+
+  .single-counter {
+    width: 187px;
+  }
+
+  .single-service {
+    width: 177px;
+  }
+
+  .single-room {
+    width: 235px;
+  }
+  .single-hotel {
+    width: 172px;
+  }
+  .single-testimonial {
+    width: 355px;
+    margin-left: 20px;
+  }
+  .contact-content {
+    width: 300px;
+  }
+  .contact-form {
+    width: 435px;
+  }
+  .single-footer {
+    width: 172px;
+  }
+}
+
+@media only screen and (max-width:767px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}

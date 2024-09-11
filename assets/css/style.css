@@ -1,0 +1,673 @@
+/* 
+Template Name:Luxary Hotel Website 
+Author: Sajedul Islam 
+Description:
+
+
+Index====:
+  01.common
+
+
+ */
+/* Google Font Link Here */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Common Css Start Here  */
+/* Color Variable  Start Here*/
+:root {
+  --primary-color: #6EC1E4;
+  --secondary-color: #54595F;
+  --text-color: #7A7A7A;
+  --hover-color: #1a1a1a;
+  --btn-bg-color: #c29a5c;
+  --white-color: #ffffff;
+  --color-rgb: rgba(85, 85, 85, 0.2);
+}
+
+/* Color Variable  End Here*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* html,
+body {
+  overflow-x: hidden;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--secondary-color);
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.fix::before,
+.fix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  transition: .3s;
+}
+
+ul {
+  list-style: none;
+}
+
+.cover {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+/* Common Css End Here  */
+
+/* Header Css Start Here */
+.header-top {
+  padding: 5px 0;
+}
+
+.header-info {
+  float: left;
+  width: 585px;
+  text-align: left;
+}
+
+.header-social {
+  float: left;
+  width: 585px;
+  text-align: right;
+}
+
+.header-info a {
+  color: var(--secondary-color);
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.header-info a i {
+  margin-right: 10px;
+}
+
+.header-info a:hover,
+.header-social ul li a:hover,
+.nav-links li a:hover {
+  color: var(--btn-bg-color);
+}
+
+.header-social ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.header-social ul li a {
+  color: var(--secondary-color);
+}
+
+.nav-links {
+  float: left;
+  width: 970px;
+  text-align: end;
+}
+
+.logo {
+  width: 200px;
+  float: left;
+}
+
+.nav-links li a {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: 36px;
+  text-transform: capitalize;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 35px;
+}
+
+.active-btn a {
+  background: var(--btn-bg-color);
+  padding: 10px 30px;
+  color: var(--white-color) !important;
+  border: 2px solid var(--btn-bg-color);
+}
+
+.active-btn a:hover {
+  background: var(--hover-color);
+}
+
+/* Header Css End Here */
+
+/* Banner Css Start Here */
+
+.banner-area {
+  position: relative;
+  z-index: 2;
+}
+
+.banner-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-area:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: var(--hover-color);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.section-title span {
+  font-family: "Playfair Display", system-ui;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.banner-content .section-title {
+  color: var(--white-color);
+}
+
+.section-title h4 {
+  font-size: 80px;
+  line-height: 88px;
+  max-width: 887px;
+  font-family: "Playfair Display", system-ui;
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.section-title p {
+  max-width: 500px;
+  padding: 20px 0;
+}
+
+.bg-btn {
+  display: inline-block;
+  padding: 15px 20px;
+  background: var(--btn-bg-color);
+  border: 1px solid var(--btn-bg-color);
+  text-transform: capitalize;
+  color: var(--white-color);
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 20px;
+  text-transform: capitalize;
+  color: var(--btn-bg-color);
+  border: 1px solid var(--btn-bg-color);
+  background: var(--white-color);
+
+}
+
+.banner-content .section-title .bg-btn {
+  margin-right: 20px;
+}
+
+.bg-btn:hover {
+  background: var(--white-color);
+  color: var(--btn-bg-color);
+}
+
+.btn:hover {
+  background: var(--btn-bg-color);
+  color: var(--white-color);
+}
+
+/* Banner Css End Here */
+
+/* About Css Start Here */
+
+
+.about-content {
+  float: left;
+  width: 670px;
+}
+
+.about-img {
+  float: left;
+  width: 500px;
+}
+
+
+.about-img img {
+  padding: 30px;
+}
+
+.about-content .section-title {
+  padding: 30px;
+}
+
+.about-content .section-title span {
+  color: var(--btn-bg-color);
+}
+
+.about-content .section-title h4 {
+  font-size: 48px;
+  line-height: 58px;
+  max-width: 480px;
+  color: var(--hover-color);
+}
+
+.about-content .section-title p {
+  max-width: 500px;
+  padding: 50px 0;
+}
+
+/* About Css End Here */
+
+/* counter Css Start Here */
+
+.counter-area {
+  background-image: linear-gradient(93.74deg, #A07531F2 0%, #65031CF2 100%);
+  color: var(--white-color);
+}
+
+.single-counter {
+  width: 292px;
+  float: left;
+  text-align: center;
+}
+
+.single-counter span {
+  display: block;
+  font-size: 48px;
+  line-height: 82px;
+  font-weight: 600;
+  font-family: "Playfair Display", system-ui;
+}
+
+.single-counter li {
+  font-size: 22px;
+  line-height: 35px;
+}
+
+/* counter Css End Here */
+
+/* Services Css Start Here */
+
+.services-area,
+.hotel-area {
+  background: var(--hover-color);
+  text-align: center;
+}
+
+.services-area .section-title,
+.hotel-area .section-title {
+  text-align: center;
+  color: var(--white-color);
+}
+
+.services-area .section-title h4,
+.room-area .section-title h4,
+.hotel-area .section-title h4,
+.testimonials-area .section-title h4 {
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 40px;
+}
+
+.services-area .section-title span,
+.room-area .section-title span,
+.hotel-area .section-title span,
+.testimonials-area .section-title span {
+  color: var(--btn-bg-color);
+}
+
+.single-service {
+  width: 282px;
+  float: left;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.single-service a {
+  font-family: "Playfair Display",
+    system-ui;
+  color: var(--white-color);
+  text-transform: capitalize;
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+  display: inline-block;
+}
+
+.services-area .btn {
+  background: transparent;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  border-radius: 3px;
+}
+
+.services-area .btn:hover {
+  background: var(--btn-bg-color);
+  border: 1px solid var(--btn-bg-color);
+}
+
+/* Services Css End Here */
+
+/* Room Css Start Here */
+.room-area,
+.testimonials-area {
+  text-align: center;
+}
+
+.room-area .section-title,
+.testimonials-area .section-title {
+  text-align: center;
+  color: var(--hover-color);
+}
+
+.single-room {
+  text-align: left;
+  width: 375px;
+  float: left;
+  margin-right: 15px;
+}
+
+.single-room h5 {
+  font-family: "Playfair Display",
+    sans-serif;
+  font-size: 24px;
+  line-height: 6px;
+  color: var(--hover-color);
+  padding: 40px 0;
+  font-weight: 500;
+
+}
+
+.single-room a {
+  color: var(--btn-bg-color);
+  text-transform: capitalize;
+  line-height: 27px;
+}
+
+.single-room a:hover {
+  color: var(--hover-color);
+}
+
+/* Room Css End Here */
+
+/* Hotel Css START Here */
+
+.single-hotel {
+  width: 277px;
+  float: left;
+  margin-right: 15px;
+  margin-bottom: 22px;
+}
+
+.single-hotel img {
+  border-radius: 5px;
+}
+
+/* Hotel Css End Here */
+
+/* Testimonials Css Start Here */
+
+.single-testimonial {
+  float: left;
+  width: 585px;
+}
+
+.single-testimonial p {
+  max-width: 570px;
+}
+
+.single-testimonial i {
+  font-size: 30px;
+  color: var(--btn-bg-color);
+}
+
+.testimonial-img {
+  padding: 20px;
+}
+
+.testimonial-img span {
+  display: block;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+/* Testimonials Css End Here */
+
+/* Contact Css Start Here */
+
+.contact-content {
+  width: 570px;
+  float: left;
+  margin-right: 15px;
+}
+
+.contact-form {
+  width: 585px;
+  float: left;
+}
+
+.contact-content .section-title span {
+  color: var(--btn-bg-color);
+}
+
+.contact-content .section-title h4,
+.contact-content h4 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 500;
+  color: var(--hover-color);
+  font-family: "playfair display", sans-serif;
+}
+
+.contact-content ul li {
+  margin-top: 23px;
+}
+
+.contact-content ul li a {
+  color: var(--secondary-color);
+}
+
+.contact-content ul li a:hover {
+  color: var(--btn-bg-color);
+}
+
+.contact-form form {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+
+.contact-form label {
+  width: 100%;
+  text-transform: capitalize;
+}
+
+.contact-form input,
+textarea,
+[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-bottom: 55px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.contact-form input:focus,
+textarea:focus {
+  border: 1px solid var(--btn-bg-color);
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form input[type=submit] {
+  background: var(--btn-bg-color);
+  border: none;
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.contact-form input[type="submit"]:hover {
+  background: var(--hover-color);
+}
+
+/* Contact Css End Here */
+
+/* Footer Css Start Here */
+
+.footer-area {
+  background: var(--hover-color);
+  color: var(--white-color);
+}
+.single-footer img {
+  margin-bottom: 20px;
+}
+.single-footer {
+  width: 277px;
+  float: left;
+  margin-right: 15px;
+}
+.single-footer h5 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.single-footer ul li {
+  margin-bottom: 5px;
+}
+
+.single-footer ul li a {
+  color: var(--white-color);
+  text-transform: capitalize;
+}
+.icon {
+  float: left;
+  width: 69px;
+  font-size: 26px;
+}
+.single-footer ul li a:hover {
+  color: var(--btn-bg-color);
+}
+
+.copyright-content {
+  width: 585px;
+  float: left;
+}
+
+.copyright-content a {
+  color: var(--btn-bg-color);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.copyright-content a:hover {
+  text-decoration: underline;
+  padding: 5px;
+}
+.copyright-policy {
+  width: 585px;
+  float: left;
+  text-align: end;
+}
+
+.copyright-policy a {
+  color: #fff;
+  margin-left: 35px;
+}
+
+.copyright-policy a:hover {
+  color: var(--btn-bg-color);
+}
+
+.upper-btn {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.upper-btn a {
+  border: 1px solid var(--btn-bg-color);
+  padding: 5px;
+  font-size: 22px;
+  color: var(--white-color);
+}
+.upper-btn a:hover{
+  color: var(--btn-bg-color);
+  border: 1px solid var(--white-color);
+
+}
+/* Footer Css End Here */
