@@ -31,10 +31,10 @@ Index====:
   box-sizing: border-box;
 }
 
-/* html,
+ html,
 body {
   overflow-x: hidden;
-} */
+} 
 
 html {
   scroll-behavior: smooth;
@@ -105,13 +105,20 @@ a {
 ul {
   list-style: none;
 }
-
+.text-center{
+  text-align: center;
+}
+.width-100{
+  width: 100%;
+}
 .cover {
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-
+.height-50{
+height: 50vh;
+}
 
 /* Common Css End Here  */
 
@@ -525,15 +532,17 @@ ul {
   font-family: "playfair display", sans-serif;
 }
 
-.contact-content ul li {
+.contact-content div span {
   margin-top: 23px;
+  display: block;
 }
 
-.contact-content ul li a {
+.contact-content div span a {
   color: var(--secondary-color);
+  display:inline-block;
 }
 
-.contact-content ul li a:hover {
+.contact-content div span a:hover {
   color: var(--btn-bg-color);
 }
 
@@ -623,7 +632,10 @@ textarea:focus {
 .single-footer ul li a:hover {
   color: var(--btn-bg-color);
 }
-
+.copyright {
+  border-top: 1px solid var(--white-color);
+  margin-top: 20px;
+}
 .copyright-content {
   width: 585px;
   float: left;
@@ -646,7 +658,7 @@ textarea:focus {
 }
 
 .copyright-policy a {
-  color: #fff;
+  color: var(--white-color);
   margin-left: 35px;
 }
 

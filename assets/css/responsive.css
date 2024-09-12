@@ -62,9 +62,11 @@
     width: 227px;
   }
 
-  .copyright-content,
+  .copyright-content{
+    width: 570px;
+  }
   .copyright-policy {
-    width: 485px;
+    width: 400px;
   }
 
 }
@@ -90,7 +92,9 @@
   .nav-links li {
     margin-left: 10px;
   }
-
+  .cover {
+    height: 50vh;
+  }
   .section-title h4 {
     font-size: 60px;
     line-height: 72px;
@@ -109,11 +113,7 @@
     width: 395px;
   }
 
-  .section-title h4 {
-    font-size: 60px;
-    line-height: 72px;
-    max-width: 400px;
-  }
+  
 
   .single-counter {
     width: 187px;
@@ -126,21 +126,38 @@
   .single-room {
     width: 235px;
   }
+
   .single-hotel {
     width: 172px;
   }
+
   .single-testimonial {
     width: 355px;
     margin-left: 20px;
   }
+
   .contact-content {
     width: 300px;
   }
+
   .contact-form {
     width: 435px;
   }
+
   .single-footer {
     width: 172px;
+  }
+
+  .copyright-content {
+    width: 490px;
+  }
+
+  .copyright-policy {
+    width: 260px;
+  }
+
+  .copyright-policy a {
+    margin-left: 5px;
   }
 }
 
@@ -149,4 +166,106 @@
     width: 100%;
     padding: 0 15px;
   }
+  .services-area .section-title h4,
+  .room-area .section-title h4,
+  .hotel-area .section-title h4,
+  .testimonials-area .section-title h4 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .contact-content .section-title h4,
+  .contact-content h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .about-content .section-title h4 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .header-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .header-info a {
+    display: block;
+    margin: 10px;
+  }
+
+  .header-social {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin-left: 0;
+    display: block;
+    margin: 10px;
+  }
+
+  .cover {
+    height: 50vh;
+  }
+
+  .section-title h4 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  .banner-content .bg-btn {
+    padding: 10px;
+  }
+
+  .banner-content .btn {
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .about-img {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-content,
+  .single-service {
+    width: 100%;
+  }
+
+  .single-counter {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .single-room {
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .single-hotel,
+  .single-testimonial,
+  .contact-content,
+  .contact-form,
+  .single-footer {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .copyright-content,
+  .copyright-policy {
+    width: 100%;
+    text-align: center;
+  }
+
 }
