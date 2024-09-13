@@ -519,18 +519,21 @@ height: 50vh;
   float: left;
 }
 
-.contact-content .section-title span {
+.contact-content .section-title span,
+.contact-form .section-title span {
   color: var(--btn-bg-color);
 }
 
 .contact-content .section-title h4,
-.contact-content h4 {
+.contact-content h4,
+.contact-form .section-title h4 {
   font-size: 32px;
   line-height: 38px;
   font-weight: 500;
   color: var(--hover-color);
   font-family: "playfair display", sans-serif;
 }
+
 
 .contact-content div span {
   margin-top: 23px;
