@@ -210,7 +210,7 @@
 
   .nav-links li {
     margin-left: 0;
-    display: inline-block;
+    display: block;
     margin: 10px;
   }
 
