@@ -210,13 +210,10 @@
 
   .nav-links li {
     margin-left: 0;
-    display: block;
+    display: inline-block;
     margin: 10px;
   }
 
-  .cover {
-    height: 50vh;
-  }
 
   .section-title h4 {
     font-size: 40px;
