@@ -62,9 +62,10 @@
     width: 227px;
   }
 
-  .copyright-content{
+  .copyright-content {
     width: 570px;
   }
+
   .copyright-policy {
     width: 400px;
   }
@@ -92,9 +93,11 @@
   .nav-links li {
     margin-left: 10px;
   }
+
   .cover {
     height: 50vh;
   }
+
   .section-title h4 {
     font-size: 60px;
     line-height: 72px;
@@ -113,7 +116,7 @@
     width: 395px;
   }
 
-  
+
 
   .single-counter {
     width: 187px;
@@ -166,21 +169,9 @@
     width: 100%;
     padding: 0 15px;
   }
-  .services-area .section-title h4,
-  .room-area .section-title h4,
-  .hotel-area .section-title h4,
-  .testimonials-area .section-title h4 {
-    font-size: 30px;
-    line-height: 38px;
-  }
-  .contact-content .section-title h4,
-  .contact-content h4 {
-    font-size: 25px;
-    line-height: 30px;
-  }
-  .about-content .section-title h4 {
-    font-size: 30px;
-    line-height: 36px;
+
+  .header-top {
+    display: none;
   }
 
   .header-info {
@@ -199,8 +190,8 @@
   }
 
   .logo {
-    width: 100%;
-    text-align: center;
+    text-align: left;
+    max-width: 100%;
   }
 
   .nav-links {
@@ -214,6 +205,61 @@
     margin: 10px;
   }
 
+
+  .mobile-navbar-btn {
+    display: block;
+    z-index: 999;
+    padding: 5px;
+  }
+
+  .nav-links {
+    width: 100%;
+    position: absolute;
+    background: #ffff;
+    top: 74px;
+    right: 0;
+    left: 0;
+    height: 347px;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: all .5s linear;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .active .nav-links {
+    transform: translateX(0);
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .active .mobile-navbar-btn .cross-btn {
+    display: block;
+  }
+
+  .active .mobile-navbar-btn .bars-btn {
+    display: none;
+  }
+  .services-area .section-title h4,
+  .room-area .section-title h4,
+  .hotel-area .section-title h4,
+  .testimonials-area .section-title h4 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .contact-content .section-title h4,
+  .contact-content h4 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .about-content .section-title h4 {
+    font-size: 30px;
+    line-height: 36px;
+  }
 
   .section-title h4 {
     font-size: 40px;

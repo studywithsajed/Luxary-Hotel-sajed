@@ -37,10 +37,10 @@ Index====:
   box-sizing: border-box;
 }
 
- html,
+html,
 body {
   overflow-x: hidden;
-} 
+}
 
 html {
   scroll-behavior: smooth;
@@ -111,20 +111,41 @@ a {
 ul {
   list-style: none;
 }
-.text-center{
+
+.text-center {
   text-align: center;
 }
-.width-100{
+
+.width-100 {
   width: 100%;
 }
+
 .cover {
   background-size: cover;
   background-position: center;
   height: 100vh;
 }
-.height-50{
-height: 50vh;
+
+.height-50 {
+  height: 50vh;
 }
+
+/* Toggle Menu  Start*/
+.mobile-navbar-btn {
+  font-size: 20px;
+  color: var(--btn-bg-color);
+  display: none;
+  text-align: right;
+  background: transparent;
+  cursor: pointer;
+}
+
+.cross-btn {
+  display: none;
+}
+
+/* Toggle Menu  End*/
+
 
 /* Common Css End Here  */
 
@@ -548,7 +569,7 @@ height: 50vh;
 
 .contact-content div span a {
   color: var(--secondary-color);
-  display:inline-block;
+  display: inline-block;
 }
 
 .contact-content div span a:hover {
@@ -610,14 +631,17 @@ textarea:focus {
   background: var(--hover-color);
   color: var(--white-color);
 }
+
 .single-footer img {
   margin-bottom: 20px;
 }
+
 .single-footer {
   width: 277px;
   float: left;
   margin-right: 15px;
 }
+
 .single-footer h5 {
   font-size: 24px;
   line-height: 36px;
@@ -625,6 +649,7 @@ textarea:focus {
   text-transform: capitalize;
   font-weight: 500;
 }
+
 .single-footer ul li {
   margin-bottom: 5px;
 }
@@ -633,18 +658,22 @@ textarea:focus {
   color: var(--white-color);
   text-transform: capitalize;
 }
+
 .icon {
   float: left;
   width: 69px;
   font-size: 26px;
 }
+
 .single-footer ul li a:hover {
   color: var(--btn-bg-color);
 }
+
 .copyright {
   border-top: 1px solid var(--white-color);
   margin-top: 20px;
 }
+
 .copyright-content {
   width: 585px;
   float: left;
@@ -660,6 +689,7 @@ textarea:focus {
   text-decoration: underline;
   padding: 5px;
 }
+
 .copyright-policy {
   width: 585px;
   float: left;
@@ -686,9 +716,11 @@ textarea:focus {
   font-size: 22px;
   color: var(--white-color);
 }
-.upper-btn a:hover{
+
+.upper-btn a:hover {
   color: var(--btn-bg-color);
   border: 1px solid var(--white-color);
 
 }
+
 /* Footer Css End Here */
