@@ -146,6 +146,26 @@ ul {
 
 /* Toggle Menu  End*/
 
+/* Scroll top  */
+.scroll-top {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  z-index: 999;
+}
+
+.scroll-style {
+  width: 4rem;
+  height: 4rem;
+  background: #364fc7;
+  display: inline-block;
+  padding: 1.4rem 1.8rem;
+  position: relative;
+  color: #e7f5ff;
+  animation: water-wave 3s linear infinite;
+  cursor: pointer;
+}
+
 
 /* Common Css End Here  */
 
