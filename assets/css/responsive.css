@@ -226,6 +226,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    display: none;
   }
 
   .active .nav-links {
@@ -233,6 +234,7 @@
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
+    display: block;
   }
 
   .active .mobile-navbar-btn .cross-btn {
